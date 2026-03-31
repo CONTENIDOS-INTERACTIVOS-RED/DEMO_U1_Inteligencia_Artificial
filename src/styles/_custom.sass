@@ -17,13 +17,23 @@
 
 .bg-color
   &-1
-    background-color: #EAF8FD
+    background-color: #CFF7E4
   &-2
-    background-color: #FFFBE8
+    background-color: #D5E6F8
   &-3
-    background-color: #F0E9F6
+    background-color: #1F727F
   &-4
-    background-color: #EAF8FD
+    background-color: #C2F1F8
+  &-5
+    background: linear-gradient(180deg,rgba(255, 255, 255, 1) 0%, rgba(213, 230, 248, 1) 46%, rgba(213, 230, 248, 1) 54%, rgba(255, 255, 255, 1) 100%)
+  &-6
+    background: linear-gradient(180deg,rgba(255, 255, 255, 1) 0%, rgba(236, 212, 254, 1) 46%, rgba(236, 212, 254, 1) 54%, rgba(255, 255, 255, 1) 100%)
+  &-7
+    background-color: #A530FE !important
+  &-8
+    background-color: #F5E9FE !important
+  &-9
+    background-color: #ECD4FE
   &-info
     background-color: #E8EEFD
   &-sintesis
@@ -57,7 +67,7 @@
     // background-image: url("../assets/bg/bg2.png") !important
     background-position: bottom
   &-slider
-    background-image: url("../assets/bg/bg-slider.png") !important
+    background-image: url("../assets/bg/bg-slider.svg") !important
     background-position: bottom
 
 // Variables
@@ -97,15 +107,15 @@ $custom-card-img-height: 322px
 
 
 .acordion__header
-  background-color: lighten($color-acento-contenido, 25%) !important
+  background-color: #CFF7E4 !important
 
 .acordion__header--active
-  background-color: $color-acento-contenido !important
+  background-color: #0B7744 !important
   h4, i
-    color: #000 !important
+    color: #fff !important
 
 .acordion__contenido
-  background-color: lighten($color-acento-contenido, 27%) !important
+  background-color: #E6FBF1 !important
 
 
 .anexo__texto
@@ -143,8 +153,13 @@ $custom-card-img-height: 322px
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 10px 15px rgba(0, 0, 0, 0.05)
 
 .tabs-content
-  background-color: #F4F4F4
+  background-color: #EAFAFC
 
+.tabla-a tbody tr td:first-child
+  border-right: 1px solid #A530FE
+
+td, th 
+    border: 1px solid #A530FE;
 .material-complementario
   p,a
     font-size: 1rem !important
@@ -214,10 +229,10 @@ $custom-card-img-height: 322px
 
 
 .lista-ul--color li > i:first-of-type
-  color: #453179 !important
+  color: #5A1A8A !important
 
 .lista-ul--color.color-dark li > i:first-of-type
-  color: #453179 !important
+  color: #5A1A8A !important
           
 
 th.bg-color-tabla
